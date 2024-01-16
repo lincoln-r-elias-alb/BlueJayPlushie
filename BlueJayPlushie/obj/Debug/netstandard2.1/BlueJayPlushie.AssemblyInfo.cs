@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A mod that adds blue jay plushie as scrap")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98c3c83ad0d87576703ec4eb2882e0061aa63947")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlueJayPlushie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlueJayPlushie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

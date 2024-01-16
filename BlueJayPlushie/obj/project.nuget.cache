@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9rTSFG2Az7vv5a2HArdGhI47bHSZs/wfhGNlG7ZvZ7ncMFPa1kPiS6Gz9u1FBsMYSKhnl+y2m74hyTIH/E+DLA==",
+  "dgSpecHash": "TAbtpIGagQw35ynXGeDSPH4evnwkGF7zS6wi/84tQlui2mgRbbIK9P36YFxrbdrAjZum1Gqg/hI93pH+GykrIQ==",
   "success": true,
-  "projectFilePath": "D:\\downloads\\LethalCompanyTemplate-main\\LethalCompanyTemplate-main\\LethalCompanyTemplate\\BlueJayPlushie.csproj",
+  "projectFilePath": "D:\\downloads\\BlueJayPlushie\\BlueJayPlushie\\BlueJayPlushie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linco\\.nuget\\packages\\bepinex.analyzers\\1.0.8\\bepinex.analyzers.1.0.8.nupkg.sha512",
     "C:\\Users\\linco\\.nuget\\packages\\bepinex.baselib\\5.4.20\\bepinex.baselib.5.4.20.nupkg.sha512",

@@ -30,7 +30,12 @@ namespace BlueJayPlushie
             Utilities.FixMixerGroups(blueJayPlushie.spawnPrefab);
             NetworkPrefabs.RegisterNetworkPrefab(blueJayPlushie.spawnPrefab);
             Items.RegisterScrap(blueJayPlushie, iRarity, Levels.LevelTypes.All);
-            new Harmony("BlueJayPlushie").PatchAll();
+            UnlockableItem unlockable = BlueJayAssets.LoadAsset<UnlockablesList>("Assets/unlocklist.asset").unlockables[0];
+            NetworkPrefabs.RegisterNetworkPrefab(unlockable.prefabObject);
+            TerminalNode info = unlockable.shopSelectionNode;
+            Unlockables.RegisterUnlockable(unlockable, StoreType.Decor, null, null, info, price: info.itemCost);
+
+            //new Harmony("BlueJayPlushie").PatchAll();
             Logger.LogMessage("Blue Jay Plushie Mod loaded!");
 
         }
